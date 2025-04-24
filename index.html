@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>教育與就業結構觀察</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    @keyframes fadeInUp {
+      0% {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .fade-in-up {
+      animation: fadeInUp 1.2s ease-out forwards;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container my-5">
+    <!-- 頁首動畫主標題 -->
+    <div class="text-center mb-5 fade-in-up">
+      <h1 class="display-3 fw-bold">教育與就業結構觀察</h1>
+    </div>
+
+    <!-- 第一區塊：就業人口結構 -->
+    <div class="text-center mb-4">
+      <h2 class="fw-bold">就業人口結構趨勢圖</h2>
+    </div>
+
+    <div class="d-flex justify-content-center mb-4">
+      <div class="border border-2 rounded p-2">
+        <img src="Line Chart.png" alt="就業人口趨勢圖" class="img-fluid">
+      </div>
+    </div>
+
+    <div class="row justify-content-center mb-5">
+      <div class="col-lg-10">
+        <div class="bg-light p-4 rounded border">
+          <p class="mb-3 fs-5">
+            隨著城市產業結構的變遷，臺北市自民國100年後的就業人口組成逐漸展現出明確的「知識密集化」趨勢。從統計資料中可觀察到，專業人員與技術員等高技能職類的人數持續穩定成長，顯示社會對於工程、資訊、金融、研究等領域人才的需求愈來愈強。
+          </p>
+          <p class="mb-0 fs-5">
+            相對而言，傳統的事務支援人員與基層銷售職位則呈現平緩甚至微幅下降之勢，反映出自動化、數位轉型與服務外包對勞動市場所造成的再分配效應。此外，農林漁牧業技藝勞動類職缺幾佔比極小，進一步證實臺北市已邁入後工業型都市階段，初級與製造業逐漸退場。
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 第二區塊：升學與就業出路 -->
+    <div class="text-center mb-4">
+      <h2 class="fw-bold">臺北市中等學校畢業生出路分析</h2>
+    </div>
+
+    <div class="d-flex justify-content-center mb-4">
+      <div class="border border-2 rounded p-2">
+        <img src="Stacked Bar Chart.png" alt="升學與就業圖表" class="img-fluid">
+      </div>
+    </div>
+
+    <div class="row justify-content-center mb-5">
+      <div class="col-lg-10">
+        <div class="bg-light p-4 rounded border">
+          <p class="mb-0 fs-5">
+            臺北市中等學校畢業生的出路顯示出強烈的升學導向。在統計期間內，幾乎每年都有高達85%以上的學生選擇升讀大學或二專，升學比例不但穩定，且其中絕大多數集中在大學校院。此一趨勢反映社會普遍對學歷的重視，也說明升學已成為學生與家長眼中最「安全穩妥」的選擇。
+            與此同時，選擇立即就業的學生比例逐年下降，且其就業集中於餐飲服務、批發零售與部分技術服務產業，顯示雖然升學為主流，但仍有少數學生投入勞動市場支撐基層服務業。而「閒居」與「其他」類別人數的波動，則可能與補習準備升學、等待兵役或轉換方向有關，也提示教育政策應關注這些學生的過渡期安排與支持機制。
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 第三區塊：升學與就業市場連動 -->
+    <div class="text-center mb-4">
+      <h2 class="fw-bold">升學與就業市場結構連動關係</h2>
+    </div>
+
+    <div class="d-flex justify-content-center mb-4">
+      <div class="border border-2 rounded p-2">
+        <img src="Multi-Axes Line Chart.png" alt="升學與就業結構對照圖" class="img-fluid">
+      </div>
+    </div>
+
+    <div class="row justify-content-center mb-5">
+      <div class="col-lg-10">
+        <div class="bg-light p-4 rounded border">
+          <p class="mb-0 fs-5">
+            若將中等學校畢業生的升學人數與臺北市整體就業市場中「專業人員」與「技術人員」的成長進行比對，可發現兩者存在某種程度上的正向連動關係。升學人數穩定成長之際，專業與技術職類的勞動人口也在逐年擴張，顯示教育體系對就業市場有一定程度的供應能力。
+            然而，這種供需關係並非即時對應，而是存在時間落差：大量學生需經歷數年大學教育後方能進入職場，使得短期內仍可能面臨高學歷卻無經驗的青年就業難題。
+            此外，就業市場對於特定技能的即戰力需求，未必能完全由傳統升學路線供給，反映出台灣教育體系與產業鏈之間仍有優化空間。這樣的觀察亦促使我們思考：升學是否永遠是最佳出路？亦或應重新審視技職教育與實務導向課程的重要性？
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 資料註解區塊 -->
+    <div class="text-center mt-5 pt-4 border-top">
+      <p class="text-muted small">
+        本網站資料來源：<a href="https://data.gov.tw/" target="_blank">https://data.gov.tw/</a><br>
+        圖表工具來自：<a href="https://plotdb.com/chart/explore/" target="_blank">https://plotdb.com/chart/explore/</a><br>
+        分析方法協助：ChatGPT
+      </p>
+    </div>
+
+  </div> <!-- container -->
+
+</body>
+</html>
+
+
+
+
+
+
+
